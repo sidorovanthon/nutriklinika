@@ -16,10 +16,9 @@ const BlogLeftSidebar = () => {
           <Container>
             <Row className="justify-content-center text-center">
               <Col lg="8">
-                <Title variant="hero">Blog Left Sidebar</Title>
+                <Title variant="hero">Здоровый контент</Title>
                 <Text>
-                  Create custom landing pages with Omega that converts more
-                  visitors than any website.
+                  Здесь Вы&nbsp;найдёте рецепты здоровых блюд и&nbsp;полезные профилактические статьи
                 </Text>
               </Col>
             </Row>

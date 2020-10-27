@@ -9,14 +9,15 @@ import CTA from "../sections/about/CTA";
 const About = () => {
   return (
     <>
-      <PageWrapper>
-        <Hero title="About us">
-          Create custom landing pages with Omega that converts more visitors
-          than any website.
+      <PageWrapper footerDark>
+        <Hero title="NutriKlinika">
+          Первое приложение о&nbsp;сбалансированном питании на&nbsp;основе научных знаний и&nbsp;мнений ведущих специалистов
         </Hero>
         <Content />
         <Team />
+        {/*
         <CTA />
+        */}
       </PageWrapper>
     </>
   );

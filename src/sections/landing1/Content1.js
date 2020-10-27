@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Title, Button, Section, Box, Text } from "../../components/Core";
 import { device } from "../../utils";
 import imgContentMobile from "../../assets/image/png/content-img1--mobile.webp";
+import StoreBadges from "../../components/Core/StoreBadges";
 
 const ShapeCard = styled(Box)`
   width: 305px;
@@ -61,15 +62,15 @@ const Content1 = () => (
                   mr={3}
                   mt={2}
                 >
-                  <i className="fas fa-bell"></i>
+                  <i className="fas fa-utensils"></i>
                 </Box>
 
                 <Box pr="40px">
                   <Text fontSize={1} lineHeight="24px" opacity={0.7} mb={0}>
-                    Next meeting on 30 mins
+                    Общие рекомендации
                   </Text>
                   <Title variant="card" fontWeight={300} mb={0}>
-                    Project Discussion with John
+                    Режимы питания при побочных эффектах
                   </Title>
                 </Box>
               </ShapeCard>
@@ -82,14 +83,11 @@ const Content1 = () => (
               data-aos-once="true"
             >
               <Box>
-                <Title>Save time on development.</Title>
+                <Title>Раздел по&nbsp;онкологии</Title>
                 <Text mb={4}>
-                  Create custom landing pages with Omega that converts more
-                  visitors than any website. With lots of unique blocks, you can
-                  easily build a page without coding.
+                Для пациентов и&nbsp;их&nbsp;родственников: как бороться с&nbsp;побочными эффектами, правильная гигиена, особенности питания в&nbsp;этот период и&nbsp;многое другое. Боремся и&nbsp;побеждаем!
                 </Text>
-
-                <Button mt={3}>Get Started</Button>
+                <StoreBadges></StoreBadges>
               </Box>
             </div>
           </Col>
