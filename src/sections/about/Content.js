@@ -21,16 +21,12 @@ const Content = () => (
         <Row className="justify-content-center pb-4">
           <Col lg="6">
             <Title variant="hero">
-              Our mission is to make your life easier.
+              Наша миссия: долголетие и&nbsp;хорошее качество жизни
             </Title>
           </Col>
           <Col lg="6" className="pl-lg-5">
             <Text>
-              Create custom landing pages with Omega that converts more visitors
-              than any website. With lots of unique blocks, you can easily build
-              a page without coding. Create custom landing pages with Omega that
-              converts more visitors than any website. With lots of unique
-              blocks, you can easily build a page without coding.
+              Для того, чтобы жить, нам нужна энергия. Природа обо всем позаботилась, вложив в&nbsp;определенные продукты конкретные субстанции. Наша задача&nbsp;&mdash; лучше их&nbsp;знать и&nbsp;использовать для своего блага. В&nbsp;этом приложении Вы&nbsp;найдете массу интересной информации, которая позволит Вам осознанно подходить к&nbsp;тому, что Вы&nbsp;едите, а&nbsp;в&nbsp;случае болезни незамедлительно перейти на&nbsp;правильный режим питания.
             </Text>
           </Col>
         </Row>

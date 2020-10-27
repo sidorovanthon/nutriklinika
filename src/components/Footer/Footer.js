@@ -87,22 +87,12 @@ const Footer = ({ isDark = true }) => {
                         variant="card"
                         color={isDark ? "light" : "dark"}
                       >
-                        About
+                        О приложении
                       </TitleStyled>
                       <UlStyled color={isDark ? "lightShade" : "darkShade"}>
                         <li>
-                          <a href="/#" target="_blank">
-                            Our mission
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Our story
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Team Members
+                          <a href="/about" target="_blank">
+                            Миссия и команда
                           </a>
                         </li>
                       </UlStyled>
@@ -114,71 +104,58 @@ const Footer = ({ isDark = true }) => {
                         variant="card"
                         color={isDark ? "light" : "dark"}
                       >
-                        Learn
+                        Защита пользователей
                       </TitleStyled>
                       <UlStyled color={isDark ? "lightShade" : "darkShade"}>
                         <li>
-                          <a href="/#" target="_blank">
-                            Tutorials
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            How it works
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            F.A.Q
+                          <a href="/terms-conditions" target="_blank">
+                            Политика конфиденциальности
                           </a>
                         </li>
                       </UlStyled>
                     </div>
                   </Col>
+                  {/*
                   <Col xs="6" lg="3">
                     <div className="mb-5 mb-lg-4">
                       <TitleStyled
                         variant="card"
                         color={isDark ? "light" : "dark"}
                       >
-                        Stories
+                        Полезное
                       </TitleStyled>
                       <UlStyled color={isDark ? "lightShade" : "darkShade"}>
                         <li>
                           <a href="/#" target="_blank">
-                            Blog
+                            Рецепты
                           </a>
                         </li>
                         <li>
                           <a href="/#" target="_blank">
-                            Tech stories
+                            Статьи
                           </a>
                         </li>
                       </UlStyled>
                     </div>
                   </Col>
+                  */}
                   <Col xs="6" lg="3">
                     <div className="mb-lg-4">
                       <TitleStyled
                         variant="card"
                         color={isDark ? "light" : "dark"}
                       >
-                        Hire
+                        Связаться с нами
                       </TitleStyled>
                       <UlStyled color={isDark ? "lightShade" : "darkShade"}>
                         <li>
-                          <a href="/#" target="_blank">
-                            Career
+                          <a href="/contact-1" target="_blank">
+                            Контакты
                           </a>
                         </li>
                         <li>
-                          <a href="/#" target="_blank">
-                            Freelancers
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Trainee
+                          <a href="mailto:i@nutriklinika.ru" target="_blank">
+                            i@nutriklinika.ru
                           </a>
                         </li>
                       </UlStyled>
@@ -191,23 +168,23 @@ const Footer = ({ isDark = true }) => {
           <CopyRightArea dark={isDark ? 1 : 0}>
             <Row className="align-items-center">
               <Col sm="6" className="text-sm-left text-center mb-2 mb-sm-0">
-                <p>&copy; 2019 UXTheme, All Rights Reserved</p>
+                <p>&copy; 2020 NutriKlinika, All Rights Reserved</p>
               </Col>
               <Col sm="6" className="text-sm-right text-center">
                 <ul className="social-icons">
                   <li>
                     <a href="/#" target="_blank">
-                      <i className="icon icon-logo-twitter"></i>
+                    <i class="fab fa-telegram"></i>
                     </a>
                   </li>
                   <li>
                     <a href="/#" target="_blank">
-                      <i className="icon icon-logo-linkedin"></i>
+                      <i class="fab fa-instagram"></i>
                     </a>
                   </li>
                   <li>
                     <a href="/#" target="_blank">
-                      <i className="icon icon-logo-facebook"></i>
+                      <i class="fab fa-facebook"></i>
                     </a>
                   </li>
                 </ul>

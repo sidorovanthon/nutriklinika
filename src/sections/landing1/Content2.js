@@ -22,7 +22,7 @@ const ShapeCard = styled(Box)`
   width: 305px;
   box-shadow: ${({ theme }) => `0 32px 34px ${theme.colors.border}`};
   position: absolute;
-  top: 20%;
+  top: 40%;
   left: 0;
   z-index: 2;
   transform: scale(0.85);
@@ -135,10 +135,10 @@ const Content2 = () => (
                     opacity={0.7}
                     mb={0}
                   >
-                    Deadline: Oct 29, 2020
+                    лучший в&nbsp;мире онколог по&nbsp;версии Expertscape
                   </Text>
                   <Title variant="card" color="light" fontWeight={300} mb={0}>
-                    You’ve got a new project from David!
+                  Чезаре Гриделли
                   </Title>
                 </Box>
               </ShapeCard>
@@ -153,31 +153,28 @@ const Content2 = () => (
               <div className="content-text pl-lg--50">
                 <div className="section-title">
                   <Title>
-                    It’s everything you’ll <br className="d-none d-sm-block" />{" "}
-                    ever need.
+                  Создается в&nbsp;сотрудничестве с&nbsp;врачами мирового уровня<br className="d-none d-sm-block" />{" "}
                   </Title>
                   <Text mb={4}>
-                    Create custom landing pages with Omega that converts more
-                    visitors than any website. With lots of unique blocks, you
-                    can easily build a page without coding.
+                  Источниками материалов служат крупнейшие медицинские институты, работы известных врачей и&nbsp;ученых разных стран
                   </Text>
                 </div>
                 <div className="mt-5">
                   <ContentCard
-                    title="50+ Unique Design Blocks"
+                    title="30+ источников"
                     color="primary"
                     iconName="icon-cards-2"
                     mb={3}
                   >
-                    with Carefully Coded
+                    тщательно отобранных
                   </ContentCard>
                   <ContentCard
-                    title="Mobile First Design
+                    title="Италия, США, Россия
 "
                     color="secondary"
                     iconName="icon-phone-charging-3-2"
                   >
-                    on Every Devices
+                    мировая медицина
                   </ContentCard>
                 </div>
               </div>

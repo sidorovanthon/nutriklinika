@@ -36,7 +36,7 @@ const ContentCard = ({
       </div>
       <A href="#" fontSize="27px">
         <Span color="secondary">
-          <i className="fab fa-twitter"></i>
+          <i className="fab fa-apple"></i>
         </Span>
       </A>
     </Box>
@@ -56,8 +56,7 @@ const Testimonial = () => (
             <Col lg="7" xl="6">
               <div className="section-title text-center">
                 <Title>
-                  Customers are <br className="d-none d-md-block" /> loving
-                  Omega
+                  Пользователи <br className="d-none d-md-block" /> оставляют отзывы
                 </Title>
               </div>
             </Col>
@@ -66,42 +65,29 @@ const Testimonial = () => (
         <Row className="justify-content-center">
           <Col md="6" lg="4" className="mb-5">
             <ContentCard
-              name="Jonathan Taylor"
-              company="CEO at Creativex"
+              name="JEF183"
+              company="13.09.2020"
               image={imgCustomer1}
             >
-              OMG! I cannot believe that I have got a brand new landing page
-              after getting{" "}
-              <A href="#">
-                <Span color="secondary"> @Omega</Span>
-              </A>
-              ...
+              Это действительно работает! Страдаю гипертонией, но&nbsp;начал соблюдай рекомендации из&nbsp;приложение и&nbsp;давление стало повышаться реже. Рекомендации по&nbsp;питанию очень простые, всё понятно объяснено. В&nbsp;первые встречаю такое полезное приложение. Но&nbsp;ставлю 4 звезды <nobr>из-за</nobr> мелкого шрифта. Надеюсь, разработчики меня услышат и&nbsp;сделают шрифт крупнее
             </ContentCard>
           </Col>
           <Col md="6" lg="4" className="mb-5">
             <ContentCard
-              name="Gavin Park"
-              company="CEO at Orbital"
-              image={imgCustomer2}
+              name="пильмс"
+              company="01.09.2020"
+              image={imgCustomer1}
             >
-              <A href="#">
-                <Span color="secondary"> @Omega</Span>
-              </A>{" "}
-              is great for creating landing pages within minutes! It actually
-              takes less time…
+              Установила по&nbsp;рекомендации. Приложение простое, но&nbsp;сколько в&nbsp;нем пользы! Здесь правильное питание рассматривается не&nbsp;только с&nbsp;точки зрения похудения, как во&nbsp;многих приложениях, а&nbsp;с&nbsp;позиции сохранения здоровья. Пять звезд для подробный разбор питания при заболеваниях и&nbsp;при приеме лекарств!&#127894;&#127894;&#127894;&#127894;&#127894;
             </ContentCard>
           </Col>
           <Col md="6" lg="4" className="mb-5">
             <ContentCard
-              name="Betty Norton"
-              company="Freelance Designer"
-              image={imgCustomer3}
+              name="Марина6776"
+              company="24.09.2020"
+              image={imgCustomer1}
             >
-              Whenever I need to create a new landing page for clients,{" "}
-              <A href="#">
-                <Span color="secondary"> @Omega</Span>
-              </A>{" "}
-              is my solution…
+              Приложение очень хорошее и&nbsp;удобное. Много различной информации о&nbsp;продуктах, рецепты и&nbsp;полезные советы. Мне очень помогло перейти на&nbsp;правильное питание. Очень рекомендую тем, кто хочет похудеть и&nbsp;начать правильно питаться
             </ContentCard>
           </Col>
 
@@ -113,14 +99,15 @@ const Testimonial = () => (
               data-aos-delay="500"
             >
               <A
-                href=""
+                href="https://apple.co/2H5lURU"
+                target="_blank"
                 fontSize={2}
                 fontWeight={500}
                 className="d-inline-flex align-items-center"
               >
                 <Span color="secondary">
                   <i className="fas fa-comment-alt mr-2"></i>
-                  <span>See all testimonials</span>
+                  <span>Читать все отзывы</span>
                 </Span>
               </A>
             </div>

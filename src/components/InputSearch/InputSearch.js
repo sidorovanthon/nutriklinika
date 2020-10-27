@@ -43,7 +43,7 @@ const InputSearch = (props) => {
         <input
           type="text"
           className="form-control"
-          placeholder="Type to search"
+          placeholder="Найти"
         />
       </BoxInput>
     </>

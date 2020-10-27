@@ -11,6 +11,8 @@ import NestedMenu from "../NestedMenu";
 import { device } from "../../utils";
 import Logo from "../Logo";
 import { menuItems } from "./menuItems";
+import badgeGoogle from "../../assets/image/svg/badge-google.svg";
+import badgeApple from "../../assets/image/svg/badge-apple.svg";
 
 const SiteHeader = styled.header`
   padding: 10px 0 10px 0;
@@ -356,6 +358,7 @@ const Header = ({ isDark = false }) => {
               </div>
             </div>
             <div className="header-btns ml-auto ml-lg-0 d-none d-md-block">
+            {/* 
               <Button
                 size="sm"
                 css={`
@@ -366,6 +369,11 @@ const Header = ({ isDark = false }) => {
               >
                 Get Started
               </Button>
+            */}
+            <div className="flex-column">
+              <a href="https://apple.co/2H5lURU" target="_blank"><img src={badgeApple} alt="" width="150px" /></a>
+              <a href="https://bit.ly/34ZE1kl" target="_blank"><img src={badgeGoogle} alt="" width="150px" /></a>
+            </div>
             </div>
             <ToggleButton
               className={`navbar-toggler btn-close-off-canvas ml-3 ${

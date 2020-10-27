@@ -34,6 +34,16 @@ import "../../assets/fonts/typography-font/CircularStd-BookItalic.ttf";
 import "../../assets/fonts/typography-font/CircularStd-Medium.ttf";
 import "../../assets/fonts/typography-font/CircularStd-MediumItalic.ttf";
 
+import "../../assets/fonts/typography-font/Inter-Black.ttf";
+import "../../assets/fonts/typography-font/Inter-Bold.ttf";
+import "../../assets/fonts/typography-font/Inter-ExtraBold.ttf";
+import "../../assets/fonts/typography-font/Inter-ExtraLight.ttf";
+import "../../assets/fonts/typography-font/Inter-Light.ttf";
+import "../../assets/fonts/typography-font/Inter-Medium.ttf";
+import "../../assets/fonts/typography-font/Inter-Regular.ttf";
+import "../../assets/fonts/typography-font/Inter-SemiBold.ttf";
+import "../../assets/fonts/typography-font/Inter-Thin.ttf";
+
 import "../../assets/fonts/icon-font/fonts/avasta.ttf";
 import "../../assets/fonts/icon-font/css/style.css";
 
@@ -123,7 +133,8 @@ const Layout = ({ children, pageContext }) => {
       >
         <GlobalStyle />
         <Helmet>
-          <title>Omega</title>
+          <title>Nutriklinika&nbsp;&mdash; первое приложение о&nbsp;сбалансированном питании на&nbsp;основе научных знаний и&nbsp;мнений ведущих специалистов
+</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
         </Helmet>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
@@ -149,7 +160,7 @@ const Layout = ({ children, pageContext }) => {
       >
         <GlobalStyle />
         <Helmet>
-          <title>Omega</title>
+          <title>Nutriklinika&nbsp;&mdash; первое приложение о&nbsp;сбалансированном питании на&nbsp;основе научных знаний и&nbsp;мнений ведущих специалистов</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
         </Helmet>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>

@@ -13,7 +13,6 @@ const IndexPage = () => {
     <>
       <PageWrapper footerDark>
         <Hero />
-        <Clients />
         <Feature />
         <Content1 />
         <Content2 />

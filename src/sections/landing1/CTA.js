@@ -13,6 +13,7 @@ import {
 
 import imgOval from "../../assets/image/png/l1-cta-oval.png";
 import svgCurve from "../../assets/image/svg/l1-curve-cta.svg";
+import StoreBadges from "../../components/Core/StoreBadges";
 
 const LeftCard = styled(Box)`
   position: absolute;
@@ -44,13 +45,13 @@ const CTA = () => (
         <Row className="justify-content-center">
           <Col lg="7" xl="6">
             <Box mb={5} className="text-center">
-              <Title color="light">Get started</Title>
+              <Title color="light">Займись своим здоровьем сейчас!</Title>
               <Text color="light" opacity={0.7}>
-                Create custom landing pages with Omega that converts more
-                visitors than any website. With lots of unique blocks, you can
-                easily build a page without coding.
+                Скачай приложение и веди здоровый образ жизни вместе с нами
               </Text>
             </Box>
+            <div><StoreBadges></StoreBadges></div>
+            {/*}
             <form>
               <Box mb={3}>
                 <Input type="text" placeholder="Your name" />
@@ -63,6 +64,8 @@ const CTA = () => (
                 Get Started
               </Button>
             </form>
+*/}
+
           </Col>
         </Row>
       </Container>

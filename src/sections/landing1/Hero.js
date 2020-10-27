@@ -9,6 +9,7 @@ import GlobalContext from "../../context/GlobalContext";
 import { device } from "../../utils";
 import svgHeroShape from "../../assets/image/svg/hero-shape-svg.svg";
 import imgL1HeroPhone from "../../assets/image/png/landing1-hero-phone.png";
+import StoreBadges from "../../components/Core/StoreBadges";
 
 const ShapeTopLeft = styled.div`
   position: absolute;
@@ -112,7 +113,7 @@ const Hero = () => {
                     <i className="icon icon-check-2"></i>
                   </Box>
                   <Text color="light" fontSize={2} lineHeight="1.25">
-                    You have successfully logged in
+                  Готовые схемы питания при различных заболеваниях
                   </Text>
                 </TopCard>
 
@@ -140,7 +141,7 @@ const Hero = () => {
                     <i className="icon icon-check-2"></i>
                   </Box>
                   <Text color="dark" fontSize={2} lineHeight="1.25">
-                    Appointment with the doctor was successful. Move to next!
+                  Только проверенные источники и&nbsp;лучшие эксперты мирового уровня
                   </Text>
                 </BottomCard>
               </div>
@@ -154,26 +155,12 @@ const Hero = () => {
               >
                 <Box py={[null, null, null, 5]} pr={5} pt={[4, null]}>
                   <Title variant="hero">
-                    Redesigned, how you build landing page!
+                    Nutriklinika
                   </Title>
                   <Text mb={4}>
-                    Create custom landing pages with Omega that convert more
-                    visitors than any website. With lots of unique blocks, you
-                    can easily build a page without coding.
+                      Первое приложение о&nbsp;сбалансированном питании на&nbsp;основе научных знаний и&nbsp;мнений ведущих специалистов
                   </Text>
-                  <div className="d-flex flex-column align-items-start">
-                    <Button mb={3}>Get Started</Button>
-                    <a
-                      href="/"
-                      className="text-decoration-none"
-                      onClick={openVideoModal}
-                    >
-                      <Box color="secondary">
-                        <i className="icon icon-triangle-right-17-2"></i> Watch
-                        the intro video
-                      </Box>
-                    </a>
-                  </div>
+                  <StoreBadges></StoreBadges>
                 </Box>
               </div>
             </Col>

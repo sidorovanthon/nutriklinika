@@ -7,6 +7,7 @@ import { Title, Button, Section, Box, Text } from "../../components/Core";
 
 import imgL1FeatureOval from "../../assets/image/png/l1-feature-oval.png";
 import imgL1FeatureCurve from "../../assets/image/svg/l1-curve-feature.svg";
+import StoreBadges from "../../components/Core/StoreBadges";
 
 const ShapeTopRight = styled(Box)`
   position: absolute;
@@ -81,14 +82,11 @@ const Feature = () => (
         <Row className="align-items-center">
           <Col lg="6" className="pl-lg-5 order-lg-2">
             <div className="feature-content section-title">
-              <Title color="light">Build a perfect landing page.</Title>
+              <Title color="light">Всё для долголетия и&nbsp;хорошего качества жизни</Title>
               <Text color="light" opacity={0.7} mb={4}>
-                Create custom landing pages with Omega that converts more
-                visitors than any website. With lots of unique blocks, you can
-                easily build a page without coding.
+              В&nbsp;приложении ты&nbsp;найдёшь огромное количество готовых решений как для конкретных заболеваний, так и&nbsp;профилактических для поддержания прекрасного здоровья
               </Text>
-
-              <Button variant="outline">Check all features</Button>
+              <StoreBadges></StoreBadges>
             </div>
           </Col>
           <Col lg="6" className="order-lg-1 mt-5 mt-lg-0">
@@ -96,41 +94,38 @@ const Feature = () => (
               <Col md="6">
                 <FeatureCard
                   color="primary"
-                  iconName="icon-layout-11"
-                  title="Multiple Layouts"
+                  iconName="icon-soup-2"
+                  title="Схемы питания"
                 >
-                  With lots of unique blocks, you can easily build a page
-                  without coding.
+                  Готовые схемы питания при различных болезнях:
+                  узнай, как помочь себе выздороветь!
                 </FeatureCard>
               </Col>
               <Col md="6">
                 <FeatureCard
                   color="warning"
-                  iconName="icon-sidebar-2"
-                  title="Fully Responsive"
+                  iconName="icon-chat-46-2"
+                  title="Консультации"
                 >
-                  With lots of unique blocks, you can easily build a page
-                  without coding.
+                  Получи персональный план питания от&nbsp;проверенных нутрициологов
                 </FeatureCard>
               </Col>
               <Col md="6">
                 <FeatureCard
                   color="secondary"
-                  iconName="icon-bookmark-2-2"
-                  title="Well Documented"
+                  iconName="icon-book-open-2"
+                  title="Справочники"
                 >
-                  With lots of unique blocks, you can easily build a page
-                  without coding.
+                  Собрание эксклюзивных материалов по&nbsp;продуктам, лекарствам, витаминам, рецептам
                 </FeatureCard>
               </Col>
               <Col md="6">
                 <FeatureCard
                   color="ash"
-                  iconName="icon-chat-45-2"
-                  title="Great Support"
+                  iconName="icon-leaf-80-2"
+                  title="Сделай дома"
                 >
-                  With lots of unique blocks, you can easily build a page
-                  without coding.
+                  Рецепты для красоты и&nbsp;здоровья из&nbsp;натуральных ингредиентов
                 </FeatureCard>
               </Col>
             </Row>

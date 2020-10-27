@@ -21,7 +21,7 @@ const Sidebar = () => {
         </form>
       </CardSidebar>
       <CardSidebar>
-        <TitleSidebar>Recent Posts</TitleSidebar>
+        <TitleSidebar>Свежее в блоге</TitleSidebar>
         <Block>
           <TitlePost>
             How To Blow Through Capital At An Incredible Rate
