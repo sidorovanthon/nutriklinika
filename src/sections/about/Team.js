@@ -54,7 +54,7 @@ const Team = () => (
         <Row className="justify-content-center">
           <Col lg="8" className="text-center pb-3">
             <div className="">
-              <Title>Знакомьтесь с&nbsp;командой</Title>
+              <Title>Консультанты</Title>
               <Text>
                 Объединяем усилия и&nbsp;профессионализм для того, чтобы помочь нашему окружению качественно питаться и&nbsp;повышать своё качество жизни
               </Text>
@@ -62,6 +62,7 @@ const Team = () => (
           </Col>
         </Row>
         <Row className="align-items-center justify-content-center">
+{/*
           <Col sm="6" md="5" lg="4" className="mt-3 mt-lg-4">
             <TeamCard userImg={imgU1} title="Юрий Савельев">
               Founder, CEO
@@ -77,19 +78,20 @@ const Team = () => (
               Маркетолог
             </TeamCard>
           </Col>
+*/}
           <Col sm="6" md="5" lg="4" className="mt-3 mt-lg-4">
             <TeamCard userImg={imgU4} title="Чезаре Гриделли">
-              Консультант, онкология (Италия)
+              Онкология (Италия)
             </TeamCard>
           </Col>
           <Col sm="6" md="5" lg="4" className="mt-3 mt-lg-4">
             <TeamCard userImg={imgU5} title="Ольга Ромашина">
-              Консультант, психология
+              Психология
             </TeamCard>
           </Col>
           <Col sm="6" md="5" lg="4" className="mt-3 mt-lg-4">
             <TeamCard userImg={imgU6} title="Светлана Титова">
-              Консультант, нутрициология
+              Нутрициология
             </TeamCard>
           </Col>
         </Row>

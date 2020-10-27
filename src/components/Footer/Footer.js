@@ -92,7 +92,7 @@ const Footer = ({ isDark = true }) => {
                       <UlStyled color={isDark ? "lightShade" : "darkShade"}>
                         <li>
                           <a href="/about" target="_blank">
-                            Миссия и команда
+                            Миссия и консультанты
                           </a>
                         </li>
                       </UlStyled>
