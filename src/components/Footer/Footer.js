@@ -95,6 +95,11 @@ const Footer = ({ isDark = true }) => {
                             Миссия и консультанты
                           </a>
                         </li>
+                        <li>
+                          <a href="https://t.me/nutriklinika" target="_blank">
+                            Telegram-канал: новости медицины каждый день
+                          </a>
+                        </li>
                       </UlStyled>
                     </div>
                   </Col>
@@ -173,17 +178,17 @@ const Footer = ({ isDark = true }) => {
               <Col sm="6" className="text-sm-right text-center">
                 <ul className="social-icons">
                   <li>
-                    <a href="/#" target="_blank">
+                    <a href="https://t.me/nutriklinika" target="_blank">
                     <i class="fab fa-telegram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="/#" target="_blank">
+                    <a href="https://www.instagram.com/nutriklinika/" target="_blank">
                       <i class="fab fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="/#" target="_blank">
+                    <a href="https://www.facebook.com/foodinfobank" target="_blank">
                       <i class="fab fa-facebook"></i>
                     </a>
                   </li>
