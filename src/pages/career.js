@@ -38,7 +38,7 @@ const Career = ({ data }) => {
       <PageWrapper footerDark>
         <Hero title="Career">
           Create custom landing pages with Omega that converts more visitors
-          than any website. {articleContent}
+          than any website.
         </Hero>
         <Content />
         <Feature />
