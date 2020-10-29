@@ -14,7 +14,7 @@ import {
 import PageWrapper from "../components/PageWrapper";
 import { device, addDays } from "../utils";
 import Logo from "../components/Logo";
-//import Countdown from "../components/Countdown";
+import CountDown from "../components/CountDown";
 
 const BoxStyled = styled(Box)`
   min-height: 100vh;
@@ -86,11 +86,9 @@ const ComingSoon2 = () => {
                         page now.
                       </Text>
                     </div>
-                    {/*
                     <Box mt={4}>
-                      <Countdown date={addDays(12)} />
+                      <CountDown date={addDays(12)} />
                     </Box>
-                    */}
                     <Box mt={4}>
                       <Text fontSize="18px" color="dark">
                         Stay tuned, early subscribers will receive goodies.

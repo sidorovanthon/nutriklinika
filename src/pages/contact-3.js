@@ -27,7 +27,14 @@ const Contact2 = () => {
                   </Text>
                 </div>
                 <div>
-                  <FormStyled>
+                  <FormStyled
+                    name="contact3"
+                    method="post"
+                    data-netlify="true"
+                    data-netlify-honeypot="bot-field"
+                  >
+                    {/* You still need to add the hidden input with the form name to your JSX form */}
+                    <input type="hidden" name="form-name" value="contact3" />
                     <Box mb={4}>
                       <Title
                         variant="card"
@@ -41,6 +48,8 @@ const Contact2 = () => {
                         type="text"
                         placeholder="i.e. James Cameron"
                         id="nameput"
+                        name="name"
+                        required
                       />
                     </Box>
                     <Box mb={4}>
@@ -56,6 +65,8 @@ const Contact2 = () => {
                         type="email"
                         placeholder="i.e. james@email.com"
                         id="emailput"
+                        name="email"
+                        required
                       />
                     </Box>
 
@@ -72,6 +83,8 @@ const Contact2 = () => {
                         type="text"
                         placeholder="i.e. I want to know about your service"
                         id="serviceput"
+                        name="service"
+                        required
                       />
                     </Box>
 
@@ -90,6 +103,8 @@ const Contact2 = () => {
                         placeholder="Write your message here"
                         rows={4}
                         id="messageput"
+                        name="message"
+                        required
                       />
                     </Box>
 
