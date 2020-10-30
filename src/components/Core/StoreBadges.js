@@ -36,8 +36,8 @@ import badgeApple from "../../assets/image/svg/badge-apple.svg";
 const StoreBadges = ({ color = "light", bg = "primary", ...rest }) => {
   return (
     <div className="flex-column">
-      <a href="https://apple.co/2H5lURU" target="_blank" rel="noopener noreferrer"><img src={badgeApple} alt="" width="200px" /></a>
-      <a href="https://bit.ly/34ZE1kl" target="_blank" rel="noopener noreferrer"><img src={badgeGoogle} alt="" width="200px" /></a>
+      <a href="https://apple.co/2H5lURU" target="_blank" rel="noopener noreferrer" aria-label="Apple badge"><img src={badgeApple} alt="" width="200px" /></a>
+      <a href="https://bit.ly/34ZE1kl" target="_blank" rel="noopener noreferrer" aria-label="Google badge"><img src={badgeGoogle} alt="" width="200px" /></a>
     </div>
   );
 };

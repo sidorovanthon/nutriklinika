@@ -109,7 +109,7 @@ const PricingTable2 = () => {
             <Table>
               <thead>
                 <tr>
-                  <th scope="col" className="title-col sin-title-box"></th>
+                  <th scope="col" className="title-col sin-title-box"  aria-label="Title"></th>
                   <th scope="col" className="basic-col sin-title-box">
                     Basic
                   </th>
@@ -299,7 +299,7 @@ const PricingTable2 = () => {
                   </td>
                 </tr>
                 <tr className="price-block-row">
-                  <th scope="row" className="title-col sin-box"></th>
+                  <th scope="row" className="title-col sin-box" aria-label="Row"></th>
                   <td className="basic-col sin-box">
                     <div className="mt-5 ml-3 pr-3">
                       <Title variant="card">Free</Title>
