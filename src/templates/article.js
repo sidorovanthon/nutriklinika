@@ -1,3 +1,4 @@
+/*
 import React from "react";
 
 import PageWrapper from "../components/PageWrapper";
@@ -14,8 +15,7 @@ const Career = ({ data }) => {
     <>
       <PageWrapper footerDark>
         <Hero title="Career">
-          <p>{data.prismicHomepage.data.title.text}</p>
-          <p>{data.prismicHomepage.data.hero_text.text}</p>
+          <p>{data.allPrismicArticle.nodes[0].data.title.text}</p>
         </Hero>
         <Content />
         <Feature />
@@ -26,18 +26,52 @@ const Career = ({ data }) => {
 };
 
 export const query = graphql`
-{
-  prismicHomepage {
-    id
-    data {
-      title {
-        text
+query PageQuery($uid: String) {
+    allPrismicArticle(filter: {uid: {eq: $uid}}) {
+        nodes {
+          id
+          uid
+          data {
+            title {
+              text
+            }
+          }
+        }
       }
-      hero_text {
-        text
-      }
-    }
-  }
 }`
 
 export default Career;
+*/
+import React from 'react'
+import { graphql } from 'gatsby'
+import PageWrapper from "../components/PageWrapper";
+
+const Page = ({ data }) => {
+  return (
+    <PageWrapper>
+      <main className="container">
+        <h1>Prismic content: {data.allPrismicArticle.nodes[0].data.title[0].text}</h1>
+        
+      </main>
+    </PageWrapper>
+  )
+}
+
+export const query = graphql`
+query PageQuery($uid: String)
+{
+    allPrismicArticle(filter: {uid: {eq: $uid}}) {
+        nodes {
+            id
+            uid
+            data {
+                title {
+                    text
+                }
+            }
+        }
+    }
+}
+`
+
+export default Page
