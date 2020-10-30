@@ -4,11 +4,11 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import {
   Title,
-  Button,
+  //Button,
   Section,
   Box,
   Text,
-  Input,
+ // Input,
 } from "../../components/Core";
 
 import imgOval from "../../assets/image/png/l1-cta-oval.png";

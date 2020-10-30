@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../sections/landing1/Hero";
-import Clients from "../sections/landing1/Clients";
+//import Clients from "../sections/landing1/Clients";
 import Feature from "../sections/landing1/Feature";
 import Content1 from "../sections/landing1/Content1";
 import Content2 from "../sections/landing1/Content2";

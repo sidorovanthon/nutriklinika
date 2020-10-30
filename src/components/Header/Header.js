@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 
 import GlobalContext from "../../context/GlobalContext";
 import Offcanvas from "../Offcanvas";
-import { Button } from "../Core";
+//import { Button } from "../Core";
 import NestedMenu from "../NestedMenu";
 import { device } from "../../utils";
 import Logo from "../Logo";
@@ -371,8 +371,8 @@ const Header = ({ isDark = false }) => {
               </Button>
             */}
             <div className="flex-column">
-              <a href="https://apple.co/2H5lURU" target="_blank"><img src={badgeApple} alt="" width="150px" /></a>
-              <a href="https://bit.ly/34ZE1kl" target="_blank"><img src={badgeGoogle} alt="" width="150px" /></a>
+              <a href="https://apple.co/2H5lURU" target="_blank" rel="noopener noreferrer"><img src={badgeApple} alt="" width="150px" /></a>
+              <a href="https://bit.ly/34ZE1kl" target="_blank" rel="noopener noreferrer"><img src={badgeGoogle} alt="" width="150px" /></a>
             </div>
             </div>
             <ToggleButton

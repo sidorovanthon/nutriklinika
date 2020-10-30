@@ -96,7 +96,7 @@ const Footer = ({ isDark = true }) => {
                           </a>
                         </li>
                         <li>
-                          <a href="https://t.me/nutriklinika" target="_blank">
+                          <a href="https://t.me/nutriklinika" target="_blank" rel="noopener noreferrer">
                             Telegram-канал: новости медицины каждый день
                           </a>
                         </li>
@@ -113,7 +113,7 @@ const Footer = ({ isDark = true }) => {
                       </TitleStyled>
                       <UlStyled color={isDark ? "lightShade" : "darkShade"}>
                         <li>
-                          <a href="/terms-conditions" target="_blank">
+                          <a href="/terms-conditions" target="_blank" rel="noopener noreferrer">
                             Политика конфиденциальности
                           </a>
                         </li>
@@ -154,12 +154,12 @@ const Footer = ({ isDark = true }) => {
                       </TitleStyled>
                       <UlStyled color={isDark ? "lightShade" : "darkShade"}>
                         <li>
-                          <a href="/contact-1" target="_blank">
+                          <a href="/contact-1" target="_blank" rel="noopener noreferrer">
                             Контакты
                           </a>
                         </li>
                         <li>
-                          <a href="mailto:i@nutriklinika.ru" target="_blank">
+                          <a href="mailto:i@nutriklinika.ru" target="_blank" rel="noopener noreferrer">
                             i@nutriklinika.ru
                           </a>
                         </li>
@@ -178,17 +178,17 @@ const Footer = ({ isDark = true }) => {
               <Col sm="6" className="text-sm-right text-center">
                 <ul className="social-icons">
                   <li>
-                    <a href="https://t.me/nutriklinika" target="_blank">
+                    <a href="https://t.me/nutriklinika" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-telegram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/nutriklinika/" target="_blank">
+                    <a href="https://www.instagram.com/nutriklinika/" target="_blank" rel="noopener noreferrer">
                       <i class="fab fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/foodinfobank" target="_blank">
+                    <a href="https://www.facebook.com/foodinfobank" target="_blank" rel="noopener noreferrer">
                       <i class="fab fa-facebook"></i>
                     </a>
                   </li>

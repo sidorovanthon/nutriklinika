@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+/*import styled from "styled-components";
 import {
   color,
   background,
@@ -9,11 +9,11 @@ import {
   shadow,
   flexbox,
   layout,
-} from "styled-system";
+} from "styled-system";*/
 import badgeGoogle from "../../assets/image/svg/badge-google.svg";
 import badgeApple from "../../assets/image/svg/badge-apple.svg";
 
-const BadgeSolid = styled.span`
+/*const BadgeSolid = styled.span`
   font-size: 13px;
   font-weight: 700;
   letter-spacing: -0.41px;
@@ -31,13 +31,13 @@ const BadgeSolid = styled.span`
   ${shadow};
   ${flexbox};
   ${layout};
-`;
+`;*/
 
 const StoreBadges = ({ color = "light", bg = "primary", ...rest }) => {
   return (
     <div className="flex-column">
-      <a href="https://apple.co/2H5lURU" target="_blank"><img src={badgeApple} alt="" width="200px" /></a>
-      <a href="https://bit.ly/34ZE1kl" target="_blank"><img src={badgeGoogle} alt="" width="200px" /></a>
+      <a href="https://apple.co/2H5lURU" target="_blank" rel="noopener noreferrer"><img src={badgeApple} alt="" width="200px" /></a>
+      <a href="https://bit.ly/34ZE1kl" target="_blank" rel="noopener noreferrer"><img src={badgeGoogle} alt="" width="200px" /></a>
     </div>
   );
 };

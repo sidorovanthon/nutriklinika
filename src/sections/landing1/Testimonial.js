@@ -4,8 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Title, Section, Box, Text, A, Span } from "../../components/Core";
 
 import imgCustomer1 from "../../assets/image/jpeg/l1-customer1.jpg";
-import imgCustomer2 from "../../assets/image/jpeg/l1-customer2.jpg";
-import imgCustomer3 from "../../assets/image/jpeg/l1-customer3.jpg";
+/*import imgCustomer2 from "../../assets/image/jpeg/l1-customer2.jpg";
+import imgCustomer3 from "../../assets/image/jpeg/l1-customer3.jpg";*/
 
 const ContentCard = ({
   className,

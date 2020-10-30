@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { rgba } from "polished";
 import { Container, Row, Col } from "react-bootstrap";
 
-import { Title, Button, Section, Box, Text } from "../../components/Core";
+import { Title, /*Button, */Section, Box, Text } from "../../components/Core";
 
 import imgL1FeatureOval from "../../assets/image/png/l1-feature-oval.png";
 import imgL1FeatureCurve from "../../assets/image/svg/l1-curve-feature.svg";
