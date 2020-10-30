@@ -16,6 +16,7 @@ module.exports = {
         accessToken: 'MC5YNWtzU0JBQUFDSUFoSnBi.77-977-977-9aShO77-977-977-9C--_vS_vv71uSu-_vTNG77-977-9eu-_ve-_ve-_vXhN77-9Vmvvv73vv70r',
         schemas: {
           articles: require('./src/schemas/article.json'),
+          homepage: require('./src/schemas/homepage.json'),
         },
         lang: '*',
         prismicToolbar: true,
