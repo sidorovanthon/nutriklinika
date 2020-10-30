@@ -37,9 +37,9 @@ exports.createPages = async ({ graphql, actions }) => {
       path: `/${node.uid}`,
       component: pageTemplates.Article,
       match: '/:uid',
- /*     context: {
+      context: {
         uid: node.uid,
-      },*/
+      },
     })    
   })
 }

@@ -40,11 +40,11 @@ const BlogDetails = () => {
         <Section className="pb-0">
           <Container>
             <Row>
+            <Col lg="4" className="">
+                <Sidebar />
+              </Col>
               <Col lg="8" className="mb-5">
                 <PostDetails />
-              </Col>
-              <Col lg="4" className="">
-                <Sidebar />
               </Col>
             </Row>
           </Container>
