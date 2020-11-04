@@ -6,10 +6,15 @@ import PageWrapper from "../components/PageWrapper";
 import { Section, Title, Text, Box } from "../components/Core";
 
 import PostDetails from "../sections/blog/PostDetails";
-import Comments from "../sections/blog/Comments";
+//import Comments from "../sections/blog/Comments";
 import Sidebar from "../sections/blog/Sidebar";
 
 const Page = ({ data }) => {
+/*
+  const prismicContent = data.allPrismicArticles.edges[0]
+  if (!prismicContent) return null
+  const document = prismicContent.node
+*/
   return (
     <>
       <PageWrapper footerDark>
@@ -19,7 +24,7 @@ const Page = ({ data }) => {
             <Row className="justify-content-center text-center">
               <Col lg="12">
                 <Title variant="hero">
-                    {data.allPrismicArticle.nodes[0].data.title[0].text}
+                    {/*document.data.title[0].text*/}
                 </Title>
                 <Box className="d-flex justify-content-center">
                   <Text mr={3}>
@@ -43,6 +48,8 @@ const Page = ({ data }) => {
                 <Sidebar />
               </Col>
               <Col lg="8" className="mb-5">
+                {/*document.data.content[1].text*/}
+                {/*Page.allPrismicArticle.nodes[0].data.content[1].text*/}
                 <PostDetails />
               </Col>
             </Row>
@@ -53,21 +60,54 @@ const Page = ({ data }) => {
   );
 };
 
+/*
+export const query = graphql`
+query PageQuery($uid: String)
+{
+    allPrismicArticles(filter: {uid: {eq: $uid}}) {
+      edges {
+        node {
+          data {
+            body {
+              __typename
+              ... on PrismicArticlesBodyText {
+                id
+                slice_type
+                slice_label
+                primary {
+                  text {
+                    html
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+}
+`
+*/
+/*
 export const query = graphql`
 query PageQuery($uid: String)
 {
     allPrismicArticle(filter: {uid: {eq: $uid}}) {
-        nodes {
-            id
-            uid
-            data {
-                title {
-                    text
-                }
+      edges {
+        node {
+          uid
+          data {
+            title {
+              text
             }
+            content {
+              text
+            }
+          }
         }
+      }
     }
 }
 `
-
+*/
 export default Page;

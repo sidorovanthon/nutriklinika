@@ -14,8 +14,8 @@ const Career = ({ data }) => {
     <>
       <PageWrapper footerDark>
         <Hero title="Career">
-          <p>{data.prismicHomepage.data.title.text}</p>
-          <p>{data.prismicHomepage.data.hero_text.text}</p>
+          <p>{/*data.prismicHomepage.data.title.text*/}</p>
+          <p>{/*data.prismicHomepage.data.hero_text.text*/}</p>
         </Hero>
         <Content />
         <Feature />
@@ -24,7 +24,7 @@ const Career = ({ data }) => {
     </>
   );
 };
-
+/*
 export const query = graphql`
 {
   prismicHomepage {
@@ -39,5 +39,5 @@ export const query = graphql`
     }
   }
 }`
-
+*/
 export default Career;
