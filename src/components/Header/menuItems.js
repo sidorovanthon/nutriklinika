@@ -100,4 +100,8 @@ export const menuItems = [
     name: "contact-1",
     label: "Контакты",
   },
+  {
+    name: "/instagram.com/nutriklinika/",
+    label: "Instagram",
+  },
 ];

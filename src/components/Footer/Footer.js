@@ -163,6 +163,11 @@ const Footer = ({ isDark = true }) => {
                             i@nutriklinika.ru
                           </a>
                         </li>
+                        <li>
+                          <a href="https://instagram.com/nutriklinika/" target="_blank" rel="noopener noreferrer">
+                            Instagram
+                          </a>
+                        </li>
                       </UlStyled>
                     </div>
                   </Col>
